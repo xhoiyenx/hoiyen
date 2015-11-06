@@ -1,0 +1,36 @@
+TAXONOMY SYSTEM
+
+taxonomy sample of amazon
+
+1. Department type
+
+- Clothing
+  - Woman
+    - Jeans
+
+  - Man
+    - Jeans
+
+How to reuse attribute jeans without assign them repeatedly
+
+Solution attempt 1:
+- Clothing
+  - Woman
+  - Man
+  - Jeans
+
+Problem:
+Jeans should always after level 2
+
+Taxonomy
+taxonomy_id   : 1
+taxonomy_type : department
+
+Taxonomy Info
+taxonomy_info_id  : 1
+taxonomy_id       : 1
+taxonomy_name     : Parent
+
+taxonomy_info_id  : 2
+taxonomy_id       : 1
+taxonomy_name     : Child of Parent
