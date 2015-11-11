@@ -1,4 +1,4 @@
 <?php
-get('/', function(){
-  return 'foo';
-});
+get('/', [
+  'uses' => 'HomeController@index'
+]);

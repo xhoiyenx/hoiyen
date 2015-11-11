@@ -37,7 +37,7 @@ $router->group([
  * SETTING ROUTE PATH TO SITE APPLICATION
  */
 $router->group([
-  'namespace' => 'Site'
+  'namespace' => 'Site',
 ], function() {
   require_once __DIR__ . '/Routes/Site/routes.php';
 });
